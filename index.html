@@ -7,37 +7,40 @@
     <title>WDD 230 - Portal - Emilio Sosa</title>
     <meta name="description" content="Emilio Sosa's Course Assignment Portal for WDD 230 at BYU-I">
     <meta name="author" content="Emilio Sosa">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
     <nav class="nav-bar">
+        <a href="https://www.linkedin.com/">LinkedIn</a>
+        <a href="https://www.byui.edu/">BYU Idaho</a>
         <img src="images/menu.svg" alt="menu icon">
-        <a href="www.linkedin.com">LinkedIn</a>
-        <a href="www.byui.com">BYU Idaho</a>
     </nav>
     <header>
-        <img src="images/profile.png" alt="Emilio's Profile Photography">
-        <h1>Emilio Sosa</h1>
+        <img src="images/profile.jpg" alt="Emilio's Profile Photography" id="profile-img">
+        <h1 id="name">Emilio Sosa</h1>
     </header>
     <main>
-        <h2>WDD 230: Course Activity Portal</h2>
+        <h2 id="title">WDD 230: Course Activity Portal</h2>
         <section class="card">
             <h3>Learning Activities</h3>
-            <ul>
-                <li>Activity 1</li>
-                <li>Activity 2</li> 
+            <ul class="card-content">
+                <li>Week 01: <a href="#">Activity 1</a></li>
+                <li>Week 02: </li> 
             </ul>
         </section>
         <section class="card">
             <h3>Project</h3>
-            <a href="#">Chamber Project</a>
+            <p class="card-content"><a href="#">Chamber Project</a></p>
         </section>
         <section class="card">
             <h3>Information</h3>
-            <p>Placeholder information about Weather - CHANGE LATER</p>
+            <p class="card-content">Placeholder information about Weather - CHANGE LATER</p>
         </section>
     </main>
     <footer>
-        <p id="copyright"c> &#169; Emilio Sosa</p>
+        <p id="copyright"> &#169; Emilio Sosa</p>
         <p id="lastModified" class="highlight">Last Modified: </p>
     </footer>
     <script src="scripts/getDates.js"></script>
