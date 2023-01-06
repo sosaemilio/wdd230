@@ -1,5 +1,27 @@
 @media only screen and (min-width: 600px) {
     nav {
+        flex-direction: row;
         justify-content: flex-end;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #title {
+        grid-column: 1 / 3;
+    }
+
+    #weather {
+        grid-column: 2 / 3;
+    }
+
+    #activities {
+        grid-row: 2 / 4;
+    }
+
+    #profile-img{
+        width: 200px;
+        margin-right: 3em;
     }
 }

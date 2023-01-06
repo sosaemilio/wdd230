@@ -16,7 +16,8 @@ nav {
     display: flex;
     align-items: center;
     background-color: #DDD0C8;
-    padding: 0.8rem;
+    padding: 0.7rem;
+    flex-direction: column-reverse;
 }
 
 nav a {
@@ -43,13 +44,19 @@ main {
 }
 
 #profile-img{
-    width: 200px;
+    width: 100px;
+    margin-right: 1rem;
+    box-shadow: 10px 5px 5px white;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px;
+    background-color: #323232;
+    color: white;
+    padding: 1em ;
 }
 
 #name {
@@ -71,7 +78,7 @@ footer {
     background-color: #323232;
     color: white;
     padding: 0.5em;
-    margin-top: 0px;
+    margin: 0px;
 }
 
 #title {
