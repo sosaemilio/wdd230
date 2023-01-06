@@ -10,3 +10,14 @@ header, main, footer {
     background-color: lightblue;
     padding: 0.7em;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+}
