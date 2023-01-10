@@ -7,10 +7,12 @@ body {
     font-size: 18px;
     background-color: #f5f5f5;
     color: #0a152b;
+    line-height: 1.8;
+    letter-spacing: 0.01rem;
 }
 
 h1 {
-    color: white;
+    color: #81eef3;
     background-color: #001f5c;
     padding: 2rem;
 }
@@ -38,15 +40,34 @@ h1, h2 {
     text-align: center;
 }
 
-#primary {
+.primary {
+    background-color: #001f5c;
+    color: #81eef3;
+}
+
+.secondary {
+    background-color: #81eef3;
+}
+
+.background {
+    background-color: #f5f5f5;
+}
+
+
+.font-color {
+    background-color: #0a152b;
+    color: #81eef3;
+}
+
+a {
     color: #001f5c;
+    text-decoration: none;
+    font-weight: 600;
 }
 
-
-#font-text {
-    text-align: center;
+a:hover {
+    text-decoration: underline;
 }
-
 .wireframe {
     text-align: center;
 }
