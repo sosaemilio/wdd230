@@ -3,10 +3,16 @@
 body {
     font-family: 'Work Sans', helvetica;
     margin: 0 auto;
-    padding: 4em;
+    padding: 1em;
     font-size: 18px;
     background-color: #f5f5f5;
     color: #0a152b;
+}
+
+h1 {
+    color: white;
+    background-color: #001f5c;
+    padding: 2rem;
 }
 
 
@@ -17,8 +23,8 @@ h1, h2 {
 
 .colors {
     width: 100%;
-    min-width: 90%;
-    margin: auto;
+    max-width: 600px;
+    margin: auto 0;
     text-align: center;
 }
 
