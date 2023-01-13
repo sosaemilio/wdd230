@@ -16,8 +16,7 @@ button.addEventListener("click", () => {
             list.remove(listItem);
             input.focus();
         });
-
-        input.focus();
+        
         input.value = "";
    };
 });
