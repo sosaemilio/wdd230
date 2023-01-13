@@ -93,3 +93,8 @@ footer {
 .card-content {
     margin: .5em;
 }
+
+.menu-item {
+    display: none;
+    align-items: center;
+}

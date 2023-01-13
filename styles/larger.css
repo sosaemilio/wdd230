@@ -32,4 +32,9 @@
     h1 {
         font-size: 48px;
     }
+    
+    .nav-links {
+        display: flex;
+        margin: 0px;
+    }
 }

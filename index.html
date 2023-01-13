@@ -18,9 +18,12 @@
 </head>
 <body>
     <nav class="nav-bar">
-        <a href="https://www.linkedin.com/">LinkedIn</a>
-        <a href="https://www.byui.edu/">BYU Idaho</a>
-        <img src="images/menu.svg" alt="menu icon">
+        <ul class="nav-links">
+            <li><a href="https://www.linkedin.com/" class="menu-item">LinkedIn</a></li>
+            <li><a href="https://www.byui.edu/" class="menu-item">BYU Idaho</a></li>
+        </ul>
+        <img src="images/dark-mode-icon.svg" alt="moon icon representing the dark mode" id="mode">
+        <img src="images/menu.svg" alt="menu icon" id="menu-icon">
     </nav>
     <header>
         <img src="images/profile.jpg" alt="Emilio's Profile Photography" id="profile-img">
@@ -32,7 +35,7 @@
             <h3>Learning Activities</h3>
             <ul class="card-content">
                 <li><strong>Week 01: </strong> <a href="week01/holygrail.html">Holy Grail</a> | <a href="https://codepen.io/sosaemilio1/pen/zYLoZyz">Applied Javascript</a> | <a href="week01/media-query.html">Media Query</a></li>
-                <li><strong>Week 02: </strong> <a href="week02/design.html">Design Principles</a> | </li> 
+                <li><strong>Week 02: </strong> <a href="week02/design.html">Design Principles</a> | <a href="https://codepen.io/sosaemilio1/pen/XWBREXe">Responsive "Hamburger" Menu</a> | <a href="week02/bom.html">JavaScript: DOM Manipulation</a> </li> 
             </ul>
         </section>
         <section class="card">
@@ -49,6 +52,8 @@
         <p id="copyright"> &#169; Emilio Sosa</p>
         <p id="lastModified" class="highlight">Last Modified: </p>
     </footer>
+    <script src="scripts/menu.js"></script>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/darkMode.js"></script>
 </body>
 </html>
