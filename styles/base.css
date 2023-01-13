@@ -98,3 +98,15 @@ footer {
     display: none;
     align-items: center;
 }
+
+.close::before {
+    background-image: none;
+}
+
+.white-icon {
+    filter: invert(1);
+}
+
+.black-icon {
+    filter: invert(0);
+}

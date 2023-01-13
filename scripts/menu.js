@@ -3,7 +3,12 @@ const menuitems = document.querySelectorAll(".menu-item");
 // menuitems will be a Node List of the list items
 
 menubutton.addEventListener("click", () => {
-	menuitems.forEach((item) => item.classList.toggle("menu-item"));
-	menubutton.classList.toggle("close");
+	if (menubutton.src.includes("images/menu.svg")) {
+		menuitems.forEach((item) => item.classList.toggle("menu-item"));
+		menubutton.src = "images/close-icon.svg";
+	} else {
+		menuitems.forEach((item) => item.classList.toggle("menu-item"));
+		menubutton.src = "images/menu.svg"
+	}
 });
 
