@@ -29,72 +29,89 @@
             <li><a href="#">Join</a></li>
         </ul>
     </nav>
-    <div id="content">
-        <header class="hero-section">
-            <div id="hero-banner">
-                <h1>Lecheria Chamber of Commerce</h1>
-                <div id="hero-buttons">
-                    <a href="join.html" class="button">Join Now</a>
-                    <a href="#" class="button" id="learn-more-btn">Learn More</a>
-                </div>
+    <header class="hero-section">
+        <div id="hero-banner">
+            <h1>Lecheria Chamber of Commerce</h1>
+            <div id="hero-buttons">
+                <a href="join.html" class="button">Join Now</a>
+                <a href="#" class="button" id="learn-more-btn">Learn More</a>
             </div>
-        </header>
-    
-        <section class="weather-section">
-            <div id="weather">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus neque accusantium nam laudantium rerum totam ipsa tenetur cum temporibus alias, odio facilis asperiores ut quibusdam dolor, corporis suscipit numquam quae.</p>
+        </div>
+    </header>
+    <!--Weather Information-->
+    <section class="weather-section">
+        <div id="weather">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus neque accusantium nam laudantium rerum totam ipsa tenetur cum temporibus alias, odio facilis asperiores ut quibusdam dolor, corporis suscipit numquam quae.</p>
+        </div>
+    </section>
+    <main>
+        <!-- Chamber Stats Section -->
+        <ul id="chamber-stats">
+            <li class="chambers-highlight">500+ Business</li>
+            <li class="chambers-highlight">1000+ Events</li>
+            <li class="chambers-highlight">20 years Founded</li>
+        </ul>
+
+        <!--Chamber Information Section (Discover Section)-->
+        <div id="chamber-information">
+            <div id="discover-txt">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem repellendus laborum magnam, officia, quam sint voluptas, consectetur eum architecto doloribus temporibus a numquam saepe pariatur tenetur quaerat eveniet iste necessitatibus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae laboriosam sed cumque a corporis voluptas, voluptatibus delectus error, totam consequatur eaque odio voluptate. Minima reprehenderit velit, commodi dicta pariatur repellendus.</p>
             </div>
-        </section>
-    
-        <main>
-            <ul id="chamber-information">
-                <li class="chambers-highlight">500+ Businesses</li>
-                <li class="chambers-highlight">1000 Events</li>
-                <li class="chambers-highlight">20 Founded</li>
-            </ul>
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facere iure nihil atque temporibus, ipsum nam dolorum consectetur odit! Id ducimus similique nesciunt neque eos eum nemo, rem necessitatibus sint?
-                </p>
-                <div id="discover-more">
-                    <a href="#" class="button">Discover More</a>
-                </div>
+            <div id="discover-more">
+                <a href="#" class="button">Discover More</a>
             </div>
-    
+        </div>
+
+        <hr>
+        
+        <!--Business Spotlights displayed as "news"-->
+        <div id="spotlight-section">
             <h2 id="spotlight-title">Business Spotlights</h2>
             <div class="business-spotlight">
                 <section class="card">
                     <img src="images/spotlight-1.jpg" alt="c" class="card-img">
-                    <h3>Spotlight 1</h3>
-                    <a href="#">Learn More</a>
+                    <div class="card-content">
+                        <h3>Spotlight 1</h3>
+                        <a href="#">Learn More</a>
+                    </div>
                 </section>
     
                 <section class="card">
                     <img src="images/spotlight-2.jpg" alt="c" class="card-img">
-                    <h3>Spotlight 1</h3>
-                    <a href="#">Learn More</a>
+                    <div class="card-content">
+                        <h3>Spotlight 2</h3>
+                        <a href="#">Learn More</a>
+                    </div>
                 </section>
     
                 <section class="card">
                     <img src="images/spotlight-3.jpg" alt="c" class="card-img">
-                    <h3>Spotlight 1</h3>
-                    <a href="#">Learn More</a>
+                    <div class="card-content">
+                        <h3>Spotlight 3</h3>
+                        <a href="#">Learn More</a>
+                    </div>
                 </section>
             </div>
-            
-            <div class="become-member">
-                <div id="become-member-container">
-                    <img src="images/spotlight-1.jpg" alt="" id="become-member-img">
-                </div>
-                <div id="become-member-content">
-                    <h2>Become a Member</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perferendis aspernatur labore voluptatibus officia sit, rem optio autem minima quam. Deleniti illo et id in. Sit nobis esse obcaecati autem?</p>
-                    <div id="become-member">
-                        <a href="#" class="button">Join Now</a>
-                    </div>
+
+        </div>
+        
+        <!--CTA to become a member of the chamber-->
+        <div class="become-member">
+            <div id="become-member-container">
+                <img src="images/spotlight-1.jpg" alt="" id="become-member-img">
+            </div>
+            <div id="become-member-content">
+                <h2>Become a Member</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perferendis aspernatur labore voluptatibus officia sit, rem optio autem minima quam. Deleniti illo et id in. Sit nobis esse obcaecati autem?</p>
+                <div id="become-member">
+                    <a href="index.html" class="button">Join Now</a>
                 </div>
             </div>
-    
+        </div>
+
+        <!--Upcoming Events of the Chamber-->
+        <div id="events">
             <h2>Upcoming Events</h2>
             <div class="upcoming-events">
                 <div class="event">
@@ -110,13 +127,16 @@
                     <p class="time">TIME</p>
                 </div>
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
+    <!--Footer-->
     <footer>
         <div class="footer">
+            <!--Logo-->
             <div id="footer-logo">
                 <img src="images/logo.png" alt="logo" class="logo">
             </div>
+            <!--Useful Links-->
             <ul class="bottom-links">
                 <li><a href="https://www.linkedIn.com">LinkedIn</a></li>
                 <li><a href="https://www.instagram.com">Instagram</a></li>
@@ -124,9 +144,12 @@
                 <li><a href="/week01/chamber-site-plan.html">Site Plan</a></li>
             </ul>
         </div>
+        <!--Copyright-->
         <p id="copyright"> &#169; Emilio Sosa</p>
         <p id="lastModified" class="highlight">Last Modified: </p>
     </footer>
+
+    <!--Scripts-->
     <script src="scripts/menu.js"></script>
     <script src="scripts/getDates.js"></script>
 </body>

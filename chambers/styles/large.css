@@ -23,9 +23,22 @@
         padding: 0rem 10rem;
     }
 
-    #chamber-information {
+    #chamber-stats {
         display: flex;
         justify-content: space-evenly;
+    }
+
+    #chamber-information {
+        display: flex;
+        margin: 1rem auto;
+    }
+
+    #discover-txt {
+        width: 60%;
+    }
+
+    #discover-more {
+        margin: auto;
     }
     
     .business-spotlight {
@@ -64,4 +77,6 @@
     #lastModified, #lastModified {
         margin-bottom: 0;
     }
+
+
 }

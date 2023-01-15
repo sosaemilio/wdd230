@@ -30,6 +30,10 @@ a:hover {
     text-decoration: underline;
 }
 
+hr {
+    color: #dddee0;
+}
+
 /* Nav Bar */
 
 .nav-bar {
@@ -155,27 +159,47 @@ a:hover {
     color: #dddee0;
 }
 
-#chamber-information {
-    padding: 0px;
-}
+/*Chamber Information*/
 
-/*Chamber Highlight*/
+#chamber-stats {
+    padding: 0px;
+    margin-bottom: 0;
+}
 
 .chambers-highlight {
     font-size: 2rem;
     text-align: center;
     margin: 1rem;
     list-style: none;
+    color: #001f5c;
+    font-weight: 1000;
 }
+
+/*Discover*/
 
 #discover-more, #become-member {
     text-align: center;
+    margin: 3rem auto;
+}
+
+#discover-txt {
+    margin-top: 0px;
+}
+
+/*Business Spotlights*/
+
+#spotlight-section {
+    margin: 3rem auto;
+}
+
+#spotlight-title {
+    margin-top: 0;
+    margin-bottom: 2rem;
 }
 
 .card {
     border: #dddee0 solid;
-    margin: 1rem auto;
-    padding: 1rem;
+    margin: 1.2rem auto;
 }
 
 .card-img {
@@ -183,12 +207,24 @@ a:hover {
 }
 
 .card h3 {
-    margin: 0.7rem auto;
+    margin: 0 0 0.7rem 0;
+}
+
+.card-content {
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+/*Become a member*/
+.become-member {
+    margin-top: 2rem;
 }
 
 #become-member-img {
     width: 100%;
 }
+
+/*Events*/
 
 .event {
     background-color: #001f5c;
@@ -204,6 +240,8 @@ a:hover {
 .event p {
     margin: 0;
 }
+
+/*Footer*/
 
 footer {
     background-color: #001f5c;
