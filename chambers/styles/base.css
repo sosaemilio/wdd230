@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+    font-family: 'Work Sans', Arial, sans-serif;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #f5f5f5;
+    color: #0a152b;
+    line-height: 1.8;
+    letter-spacing: 0.01rem;
+}
+
+a {
+    color: #001f5c;
+}
+
+.nav-menu a {
+    color: #81eef3;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+}
+
+h2 {
+    text-align: center;
+}
+
+a:hover {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.nav-bar {
+    background-color: #001f5c;
+    color: #81eef3;
+    display: flex;
+    grid-template-columns: 200px auto;
+    flex-direction: column;
+}
+
+#logo {
+    width: 10rem;
+}
+
+#logo-container {
+    margin: auto;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu li {
+    margin: 1rem;
+}
+
+/* .hero-section {
+    display: grid;
+    grid-template-columns: 1 fr;
+    grid-template-rows: 1fr 1fr 1fr;
+} */
+
+#hero-img {
+    /* grid-row: 1 / 4;
+    grid-column: 1 / 2; */
+}
+
+#hero-banner {
+    /* text-align: center;
+    margin: 0 auto;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2; */
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/hero-banner.jpg");
+    height: 100vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #001f5c;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #81eef3;
+    color: #001f5c;
+}
+
+.weather-section {
+    background-color: #dddee0;
+    text-align: center;
+}
+
+.chambers-highlight {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+#discover-more, #become-member {
+    text-align: center;
+}
+
+.card {
+    border: #dddee0 solid;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card h3 {
+    margin: 0.7rem auto;
+}
+
+.event {
+    background-color: #001f5c;
+    color: white;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.event h3 {
+    margin: 0;
+}
+
+.event p {
+    margin: 0;
+}
