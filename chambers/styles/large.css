@@ -2,8 +2,40 @@
     .nav-bar {
         background-color: #001f5c;
         color: #81eef3;
-        display: flex;
+        display: grid;
         grid-template-columns: 200px auto;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: flex-end;
         flex-direction: row;
+    }
+
+    main {
+        padding: 0rem 10rem;
+    }
+
+    #chamber-information {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .business-spotlight {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .become-member {
+        display: flex;
+    }
+
+    #become-member-container {
+        flex-grow: 2;
+    }
+
+    #become-member-content {
+        padding: 2rem;
     }
 }
