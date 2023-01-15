@@ -23,6 +23,7 @@ main {
 
 h2 {
     text-align: center;
+    font-size: 2.8em;
 }
 
 a:hover {
@@ -167,7 +168,7 @@ hr {
 }
 
 .chambers-highlight {
-    font-size: 2rem;
+    font-size: 2em;
     text-align: center;
     margin: 1rem;
     list-style: none;
@@ -189,12 +190,12 @@ hr {
 /*Business Spotlights*/
 
 #spotlight-section {
-    margin: 3rem auto;
+    margin: 1rem auto;
 }
 
 #spotlight-title {
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .card {
