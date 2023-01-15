@@ -50,13 +50,9 @@
     .become-member {
         display: flex;
     }
-
-    #become-member-container {
-        flex-grow: 2;
-    }
     
     #become-member-content {
-        margin: 1rem;
+        margin: auto 1.2rem;
     }
     
     #become-member-content h2 {
