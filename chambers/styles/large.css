@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1300px) {
     
     .nav-bar {
-        padding: 0.3rem 10rem ;
+        padding: 0.1rem 10rem;
     }
 
     .nav-menu {
@@ -9,10 +9,21 @@
         justify-content: flex-end;
         flex-direction: row;
         gap: 2rem;
+        
+        z-index: inherit;
+        top: auto;
+        left: auto;
+        background-color: auto;
+        height: auto;
+        overflow-x: visible;
+        transition: 0;
+        position: static;
+        margin-top: auto;
+        padding-left: auto;
     }
 
     #logo-container {
-        width: 18rem;
+        width: 16rem;
     }
 
     .menu {

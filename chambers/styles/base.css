@@ -11,6 +11,10 @@ body {
     letter-spacing: 0.01rem;
 }
 
+h1 {
+   font-weight: 1000;
+}
+
 a {
     color: #001f5c;
 }
