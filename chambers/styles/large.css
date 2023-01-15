@@ -1,8 +1,7 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1300px) {
     
     .nav-bar {
-        padding-left: 10rem;
-        padding-right: 10rem;
+        padding: 0.3rem 10rem ;
     }
 
     .nav-menu {
@@ -10,6 +9,10 @@
         justify-content: flex-end;
         flex-direction: row;
         gap: 2rem
+    }
+
+    #logo-container {
+        width: 18rem;
     }
 
     .menu {
@@ -41,5 +44,24 @@
 
     #become-member-content {
         padding: 2rem;
+    }
+
+    footer{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bottom-links {
+        flex-grow: 2;
+        text-align: right;
+    }
+
+    #lastModified, #lastModified {
+        margin-bottom: 0;
     }
 }
