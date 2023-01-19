@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    color: #323232;
+}
+
+header, footer {
+    background-color: #DDD0C8;
+    padding: .7rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+img {
+    background: #0000;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
