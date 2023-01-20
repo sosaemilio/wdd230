@@ -4,7 +4,7 @@
         justify-content: flex-end;
     }
 
-    main {
+    .main-grid {
         grid-template-columns: 1fr 1fr;
     }
     
@@ -36,5 +36,17 @@
     .nav-links {
         display: flex;
         margin: 0px;
+    }
+
+    #temple-label {
+        position: absolute;
+        top: 6rem;
+        left: 20rem;
+        padding: 0.8rem;
+        background-color: #DDD0C8;
+    }
+
+    #temple-label p {
+        font-size: 1.3rem;
     }
 }

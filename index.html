@@ -26,28 +26,47 @@
         <img src="images/menu.svg" alt="menu icon" id="menu-icon">
     </nav>
     <header>
-        <img src="images/profile.jpg" alt="Emilio's Profile Photography" id="profile-img">
+        <img src="images/profile.webp" alt="Emilio's Profile Photography" id="profile-img" loading="lazy">
         <h1 id="name">Emilio Sosa</h1>
     </header>
+    <div id="hero-banner">
+        <picture>
+            <source media="(min-width: 960px)" 
+                    srcset="images/caracas-temple-2400x1200.webp"
+                    width="960px">
+            <img 
+            src="images/caracas-temple-400x225.webp"
+            alt="Front view of the Caracas's Temple"
+            loading="lazy">
+        </picture>
+
+        <div id="temple-label">
+            <p>Caracas Temple</p>
+        </div>
+    </div>
     <main>
-        <h2 id="title">WDD 230: Course Activity Portal</h2>
-        <section class="card" id="activities">
-            <h3>Learning Activities</h3>
-            <ul class="card-content">
-                <li><strong>Week 01: </strong> <a href="week01/holygrail.html">Holy Grail</a> | <a href="https://codepen.io/sosaemilio1/pen/zYLoZyz">Applied Javascript</a> | <a href="week01/media-query.html">Media Query</a></li>
-                <li><strong>Week 02: </strong> <a href="week02/design.html">Design Principles</a> | <a href="https://codepen.io/sosaemilio1/pen/XWBREXe">Responsive "Hamburger" Menu</a> | <a href="week02/bom.html">JavaScript: DOM Manipulation</a> </li>
-                <li><strong>Week 03: </strong> <a href="week03/images/landscape.webp">WebP</a> | <a href="week/lazyloading.html">Native Lazy Loading</a> | <a href="https://codepen.io/sosaemilio1/pen/vYaWopv?">Responsive Images - srcset</a></li> 
-            </ul>
-        </section>
-        <section class="card">
-            <h3>Project</h3>
-            <p class="card-content"><a href="chambers/index.html">Chamber Project</a></p>
-            <p class="card-content"><a href="week01/chamber-site-plan.html">Chamber of Commerce Site Plan</a></p>
-        </section>
-        <section class="card" id="weather">
-            <h3>Information</h3>
-            <p class="card-content">Placeholder information about Weather - CHANGE LATER</p>
-        </section>
+        <div class="main-grid">
+            <h2 id="title">WDD 230: Course Activity Portal</h2>
+            <section class="card" id="activities">
+                <h3>Learning Activities</h3>
+                <ul class="card-content">
+                    <li><strong>Week 01: </strong> <a href="week01/holygrail.html">Holy Grail</a> | <a href="https://codepen.io/sosaemilio1/pen/zYLoZyz">Applied Javascript</a> | <a href="week01/media-query.html">Media Query</a></li>
+                    <li><strong>Week 02: </strong> <a href="week02/design.html">Design Principles</a> | <a href="https://codepen.io/sosaemilio1/pen/XWBREXe">Responsive "Hamburger" Menu</a> | <a href="week02/bom.html">JavaScript: DOM Manipulation</a> </li>
+                    <li><strong>Week 03: </strong> <a href="week03/images/landscape.webp">WebP</a> | <a href="week/lazyloading.html">Native Lazy Loading</a> | <a href="https://codepen.io/sosaemilio1/pen/vYaWopv?">Responsive Images - srcset</a></li> 
+                </ul>
+            </section>
+            <section class="card">
+                <h3>Project</h3>
+                <p class="card-content"><a href="chambers/index.html">Chamber Project</a></p>
+                <p class="card-content"><a href="week01/chamber-site-plan.html">Chamber of Commerce Site Plan</a></p>
+            </section>
+            <section class="card" id="weather">
+                <h3>Information</h3>
+                <p class="card-content">Placeholder information about Weather - CHANGE LATER</p>
+            </section>
+        </div>
+        <h2>Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62973.22399233654!2d-64.49626991107202!3d9.436610519058831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sve!4v1674176244929!5m2!1sen!2sve" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
         <p id="copyright"> &#169; Emilio Sosa</p>

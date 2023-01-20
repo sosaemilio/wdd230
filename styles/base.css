@@ -8,7 +8,7 @@ body {
     letter-spacing: 0.1rem;
 }
 
-main {
+.main-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -109,4 +109,26 @@ footer {
 
 .black-icon {
     filter: invert(0);
+}
+
+picture {
+    width: 100%;
+    height: auto;
+}
+
+#hero-banner {
+    text-align: center;
+    position: relative;
+}
+
+#temple-label {
+    position: absolute;
+    top: 2rem;
+    left: 1.6rem;
+    padding: 0.3rem;
+    background-color: #DDD0C8;
+}
+
+#temple-label p {
+    font-weight: 800;
 }
