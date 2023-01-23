@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecheria Chamber of Commerce</title>
+    <meta name="description" content="Located in the area of the Great Barcelona, Lecheria has many to offers. From pristine beaches to hiking, from eating on the beach to eat on luxury restaurant. Lecheria economy is growing and we are proud to share it. ">
+    <meta name="author" content="Emilio Sosa">
+    <meta property="og:title" content="Lecheria Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://sosaemilio.github.io/wdd230/chambers/hero-banner.jpg">
+    <meta property="og:url" content="https://sosaemilio.github.io/wdd230/chambers/index.html">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+</head>
+<body>
+    <nav class="nav-bar">
+        <div id="logo-container">
+            <img src="images/logo.png" alt="" class="logo">
+        </div>
+        <div id="menu" class="menu" onclick="menu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <h2>Discover Lecheria</h2>
+    <div class="content" id="discover">
+        <main id="discover-gallery">
+            <figure class="thumbex">
+                <img src="images/discover/fortin-magdalena.webp" alt="Air view of a forth located in the risk of a mountain" loading="lazy" class="thumbnail">
+                <figcaption>Magdalena Forth</figcaption>
+            </figure>
+            <figure class="thumbex">
+                <img src="images/discover/isla-paraiso.webp" alt="Artificial Residential Island with blue windows located in a canal" loading="lazy" class="thumbnail">
+                <figcaption>Paradise Island</figcaption>
+            </figure>
+            <figure class="thumbex">
+                <img src="images/discover/mirador-cerro-morro.webp" alt="Observer Point" loading="lazy" class="thumbnail">
+                <figcaption>Morro Mountain</figcaption>
+            </figure>
+            <figure class="thumbex">
+                <img src="images/discover/muelle-plaza-mayor.webp" alt="Dockk view of a Plaza Mayors Mall" loading="lazy" class="thumbnail">
+                <figcaption>Plaza Mayor</figcaption>
+            </figure>
+            <figure class="thumbex">
+                <img src="images/discover/museo-dimetreus-demus.webp" alt="Museum with a form of eye made with Crystal" loading="lazy" class="thumbnail">
+                <figcaption>Dimetreus Demus Museum</figcaption>
+            </figure>
+            <figure class="thumbex">
+                <img src="images/discover/playa-mansa.webp" alt="Sunsent in a beatiful beach" loading="lazy" class="thumbnail">
+                <figcaption>Mansa Beach</figcaption>
+            </figure>
+        </main>
+        <sidebar id="discover-sidebar">
+            <h3>Location</h3>
+            <p>Anzoategui, Venezuela</p>
+            <h3>Demographics</h3>
+            <p>Founded in 1992, Lecheria counts with a population of <strong>78,784</strong></p>
+            <h3>Visits Counter</h3>
+            <h3>Upcoming Events</h3>
+        </sidebar>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <!--Logo-->
+            <div id="footer-logo">
+                <img src="images/logo.png" alt="logo" class="logo">
+            </div>
+            <!--Useful Links-->
+            <ul class="bottom-links">
+                <li><a href="https://www.linkedIn.com">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://sosaemilio.github.io/wdd230/week01/chamber-site-plan.htmlhtml">Site Plan</a></li>
+            </ul>
+        </div>
+        <!--Copyright-->
+        <p id="copyright"> &#169; Emilio Sosa</p>
+        <p id="lastModified" class="highlight">Last Modified: </p>
+    </footer>
+
+    <!--Scripts-->
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/getDates.js"></script>
+</body>
+</html>
