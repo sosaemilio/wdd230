@@ -106,16 +106,14 @@
         margin-bottom: 5rem;
     }
 
-
-    #discover-gallery{
-        padding: 0 30px;
+    figure {
+        margin: 10px 20px 30px;
     }
         
     .thumbex{
-        margin: 10px 20px 30px;
         width: 100%;
         min-width: 250px;
-        max-width: 435px;
+        max-width: 400px;
         height: 300px;
         flex: 1;
         overflow: hidden;
@@ -140,23 +138,12 @@
         opacity: 1;
     }
 
-    figcaption {
-        margin: 3rem;
-    }
-    
-    /* figcaption{
-        position: absolute;
-        z-index: 2;
-        top: calc(150px - 20px);
-        left: 0;
-        right: 0;
-        background: rgba(0,0,0,0.7);
+    figcaption{
+        background: #001f5c;
         padding: 10px 50px;
-        margin: 0 45px;
-        text-align: center;
+        margin: 0 5%;
         color: white;
         font-weight: 300;
-        transition: all 0.3s ease-out;
-      } */
+    }
       
 }

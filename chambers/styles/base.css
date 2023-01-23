@@ -295,4 +295,10 @@ footer p {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    padding: 0px;
+}
+
+figure {
+    margin: 0 auto;
+    text-align: center;
 }
