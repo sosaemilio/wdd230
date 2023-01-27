@@ -4,6 +4,7 @@ const links = document.querySelectorAll("a");
 const navBar = document.querySelector("nav");
 const footer = document.querySelector("footer");
 const menu = document.querySelector("#menu-icon");
+const templeLabel = document.querySelector("#temple-label")
 
 modeButton.addEventListener("click", () => {
 	if (modeButton.src.includes("dark-mode-icon.svg")) {
@@ -14,6 +15,8 @@ modeButton.addEventListener("click", () => {
 		});
 		navBar.style.background = "#121212";
 		footer.style.background = "#121212";
+		templeLabel.style.background = "#121212";
+		templeLabel.style.color = "#fff";
 		modeButton.src = "images/light-mode-icon.svg";
 		modeButton.classList.toggle("white-icon");
 		menu.classList.toggle("white-icon");

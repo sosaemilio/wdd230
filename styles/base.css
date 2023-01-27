@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+:root {
+    --primary-color: #323232;
+    --secondary-color: #DDD0C8;
+    --accent1-color: white;
+}
+
 body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
-    color: #323232;
+    color: var(--primary-color);
     line-height: 1.8;
     letter-spacing: 0.1rem;
 }
@@ -17,7 +23,7 @@ body {
 nav {
     display: flex;
     align-items: center;
-    background-color: #DDD0C8;
+    background-color: var(--secondary-color);
     padding: 0.7rem;
     flex-direction: column-reverse;
 }
@@ -28,12 +34,12 @@ nav a {
 }
 
 a {
-    color: #323232;
+    color: var(--primary-color);
 }
 
 a:hover {
     text-decoration: underline;
-    color: #323232;
+    color: var(--primary-color);
     font-weight: bold;
 }
 
@@ -51,7 +57,7 @@ main {
 #profile-img{
     width: 100px;
     margin-right: 1rem;
-    box-shadow: 10px 5px 5px white;
+    box-shadow: 10px 5px 5px var(--accent1-color);
 }
 
 header {
@@ -59,8 +65,8 @@ header {
     align-items: center;
     justify-content: center;
     margin: 0px;
-    background-color: #323232;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
     padding: 1em;
 }
 
@@ -70,18 +76,18 @@ header {
 
 footer {
     text-align: center;
-    background-color: #DDD0C8;
+    background-color: var(--secondary-color);
     padding: 1rem;
 }
 
 .card {
-    border: solid 0.1em #323232;
+    border: solid 0.1em var(--primary-color);
 }
 
 .card h3 {
     text-align: center;
-    background-color: #323232;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
     padding: 0.5em;
     margin: 0px;
 }
@@ -121,14 +127,58 @@ picture {
     position: relative;
 }
 
+#hero-banner img {
+    width: 100%;
+}
+
 #temple-label {
     position: absolute;
     top: 2rem;
     left: 1.6rem;
     padding: 0.3rem;
-    background-color: #DDD0C8;
+    background-color: var(--secondary-color);
 }
 
 #temple-label p {
     font-weight: 800;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#message {
+    display: none;
+}
+
+#range-label {
+    margin-top: 1rem;
+}
+
+input {
+    padding: 1rem;
+    border: solid var(--primary-color);
+}
+
+#submit {
+    margin-top: 2rem;
+    background-color: var(--secondary-color);
+    border: solid var(--secondary-color);
+}
+
+.subheading {
+    text-align: center;
+}
+
+#form {
+    margin: 0 auto;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    padding: 1rem;
+    border: 1px solid var(--primary-color);
+}
+

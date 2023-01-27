@@ -49,4 +49,8 @@
     #temple-label p {
         font-size: 1.3rem;
     }
+
+    form {
+        padding: 0 10rem;
+    }
 }
