@@ -5,7 +5,7 @@ const passwordConfirmation = document.getElementById("username-confirmation");
 passwordConfirmation.addEventListener("focusout", checkPassword);
 
 function checkPassword(){
-    if (password != passwordConfirmation) {
+    if (password.value !== passwordConfirmation.value) {
         message.style.display = "block"
         message.textContent = "Password doesn't match";
         message.style.color = "red";

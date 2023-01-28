@@ -161,7 +161,7 @@ input {
     border: solid var(--primary-color);
 }
 
-#submit {
+#btnSubmit {
     margin-top: 2rem;
     background-color: var(--secondary-color);
     border: solid var(--secondary-color);
@@ -181,4 +181,9 @@ th {
     padding: 1rem;
     border: 1px solid var(--primary-color);
 }
+
+td {
+    padding: 1rem;
+}
+
 

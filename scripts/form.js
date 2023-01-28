@@ -2,18 +2,20 @@ function updateRange(value) {
     document.getElementById("rate").textContent = value;
 }
 
-const fullName = document.getElementById("fullname");
-const email = document.getElementById("email");
-const range = document.getElementById("range");
-const username = document.getElementById("username");
-const submitBtn = document.getElementById("submit");
+const submitBtn = document.getElementById("btnSubmit");
 
-submitBtn.addEventListener("click", updateTable())
+submitBtn.addEventListener("click", () => {
+    const fullName = document.getElementById("fullname").value;
+    const email = document.getElementById("email").value;
+    const range = document.getElementById("range").value;
+    const username = document.getElementById("username").value;
 
-function updateTable(){
-    // document.getElementById("form-input").style.display = "block";
-    document.getElementById("name-value").textContent = fullName;
-    document.getElementById("email-value").value = email;
-    document.getElementById("rating-value").value = range;
-    document.getElementById("username-value").value = username;
-}
+
+
+    document.querySelector(".form").style.display = "none";
+    console.log(fullName);
+    document.getElementById("name-value").innerHTML = fullName;
+    document.getElementById("email-value").innerHTML = email;
+    document.getElementById("rating-value").innerHTML = range;
+    document.getElementById("username-value").innerHTML = username;
+});
