@@ -13,13 +13,10 @@
         z-index: inherit;
         top: auto;
         left: auto;
-        background-color: auto;
         height: auto;
         overflow-x: visible;
-        transition: 0;
         position: static;
         margin-top: auto;
-        padding-left: auto;
     }
 
     #logo-container {
