@@ -11,7 +11,7 @@ submitBtn.addEventListener("click", () => {
     const username = document.getElementById("username").value;
 
 
-
+    document.querySelector("#form-input").style.display = "block";
     document.querySelector(".form").style.display = "none";
     console.log(fullName);
     document.getElementById("name-value").innerHTML = fullName;

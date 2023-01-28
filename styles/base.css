@@ -186,4 +186,6 @@ td {
     padding: 1rem;
 }
 
-
+#form-input {
+    display: none;
+}
