@@ -303,3 +303,34 @@ figure {
     margin: 0 auto;
     text-align: center;
 }
+
+#joinus-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#joinus {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+input, select {
+    border: 1px solid #dddee0;
+    padding: 0.7rem;
+}
+
+label {
+    margin-top: 0.5rem;
+}
+
+#submit {
+    margin: 1rem auto;
+    background-color: #001f5c;
+    color: #81eef3;
+    padding: 1.3rem;
+}
+
+#submit:hover {
+    text-decoration: underline;
+}
+

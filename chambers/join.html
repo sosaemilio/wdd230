@@ -34,15 +34,67 @@
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
-    <header class="hero-section">
-        <div id="hero-banner">
-            <h1>Lecheria Chamber of Commerce</h1>
-            <div id="hero-buttons">
-                <a href="#" class="button">Join Now</a>
-                <a href="#" class="button" id="learn-more-btn">Learn More</a>
-            </div>
-        </div>
-    </header>
+    <h2>Join Us</h2>
+    <main id="joinus">
+
+        <form action="thankyou.html" method="get" id="joinus-form">
+            <label for="first-name">
+                First Name*
+            </label>
+            <input type="text" name="first_name" id="first-name" required autofocus>
+
+            <label for="last-name">
+                Last Name*
+            </label>
+            <input type="text" name="last_name" id="last-name" required>
+            
+            
+            <label for="title">
+                Title*
+            </label>
+            <input type="text" name="title" id="title">
+            
+
+            <label for="email">
+                email*
+            </label>
+            <input type="email" name="email" id="email" placeholder="johndoe@example.com" required>
+            
+
+            <label for="telephone">
+                Cell phone number*
+            </label>
+            <input type="tel" name="telephone" id="telephone" required> 
+            
+            <label for="business-name">
+                Business Name*
+            </label>
+            <input type="text" name="business_name" id="business-name" required>
+
+            <label for="membership">
+                Membership
+            </label>
+            <select name="membership" id="membership">
+                <option value="np_membership">NP Membership</option>
+                <option value="bronze_membership">Bronze Membership</option>
+                <option value="silver_membership">Silver Membership</option>
+                <option value="gold_membership">Gold Membership<option>
+            </select>
+
+            <label for="date">Choose a time for your appointment:</label>
+            <input type="datetime-local" id="date" name="submited-date">
+
+
+            <label for="description">Business description</label>
+            <textarea name="description" id="business-description" cols="30" rows="10"></textarea>
+            
+            <input type="submit" value="Submit" id="submit">
+        </form>
+
+        <div id="membership-sidebar"></div>
+    </main>
+
+
 
     <!--Footer-->
     <footer>

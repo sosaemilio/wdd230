@@ -142,5 +142,19 @@
         color: white;
         font-weight: 300;
     }
+
+    #joinus {
+        padding: 0 10rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #joinus-form {
+        margin-right: 1.5rem;
+    }
       
+    #membership-sidebar {
+        border-left: #dddee0 solid;
+        margin-left: 1.5rem;
+        padding-left: 1rem;
+    }
 }
