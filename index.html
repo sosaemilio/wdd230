@@ -71,31 +71,30 @@
         <form class="form">
             <label for="fullname">
                 Full Name
-                <input type="text" id="fullname" name="fullname" required>
             </label>
+            <input type="text" id="fullname" name="fullname" required>
             
             <label for="email">
                 Email
-                <input type="email" id="email" name="email" required>
             </label>
-            
+            <input type="email" id="email" name="email" required>
+
             <p>Page Rating (0 - 10) [<strong id="rate"></strong>]</p>
             <label for="range" id="range-label">
-                <input type="range" id="range" name="page_rating" min="0" max="10" list="ten" onchange="updateRange(this.value);">
             </label>
-            
+            <input type="range" id="range" name="page_rating" min="0" max="10" list="ten" onchange="updateRange(this.value);">
             
             <div id="message"></div>
             <label for="username">
                 Username
-                <input type="password" id="username" name="username" pattern="(?=.*[._%+-@/'])(?=.*[a-zA-Z0-9]).{5,12}" title="Must Have at Least five characters and at most 12 characters and that at least one of the characters is not alpha-numeric" required>
             </label>
+            <input type="password" id="username" name="username" pattern="(?=.*[._%+-@/'])(?=.*[a-zA-Z0-9]).{5,12}" title="Must Have at Least five characters and at most 12 characters and that at least one of the characters is not alpha-numeric" required>
             
 
             <label for="username-confirmation">
                 Confirm Username
-                <input type="password" name="username_confirmation" id="username-confirmation" required>
             </label>
+            <input type="password" name="username_confirmation" id="username-confirmation" required>
             
             <input type="button" value="TEST" id="btnSubmit">
         </form>
