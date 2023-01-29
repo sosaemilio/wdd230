@@ -75,19 +75,19 @@
                 Membership
             </label>
             <select name="membership" id="membership">
-                <option value=""></option>
                 <option value="bronze_membership">Bronze Membership</option>
                 <option value="silver_membership">Silver Membership</option>
                 <option value="gold_membership">Gold Membership</option>
                 <option value="np_membership">NP Membership</option>
             </select>
 
-            <label for="date">Timestap</label>
-            <input type="datetime-local" id="date" name="submited-date" hidden>
+            <label for="date">
+                <input type="datetime-local" id="date" name="submited-date">
+            </label>
 
 
             <label for="description">Business description</label>
-            <textarea name="description" id="business-description" cols="30" rows="10"></textarea>
+            <textarea name="description" id="business" cols="30" rows="10"></textarea>
             
             <input type="submit" value="Send message" id="submit">
         </form>
@@ -157,6 +157,7 @@
     </footer>
 
     <!--Scripts-->
+    <script src="scripts/date.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/getDates.js"></script>
 </body>
