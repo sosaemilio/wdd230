@@ -31,6 +31,10 @@ modeButton.addEventListener("click", () => {
 		main.style.color = "#323232";
 		navBar.style.background = "#DDD0C8";
 		footer.style.background = "#DDD0C8";
+
+		templeLabel.style.background = "#DDD0C8";
+		templeLabel.style.color = "#323232";
+
 		button.style.background = "#DDD0C8";
 		button.style.color = "#323232";
 		button.style.border = "solid var(--secondary-color)";
