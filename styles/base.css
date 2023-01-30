@@ -189,3 +189,7 @@ td {
 #form-input {
     display: none;
 }
+
+label {
+    margin-top: 1rem;
+}

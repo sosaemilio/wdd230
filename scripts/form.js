@@ -1,5 +1,6 @@
 function updateRange(value) {
-    document.getElementById("rate").textContent = value;
+
+    document.getElementById("range-label").textContent = `Page Rating (0 - 10) - Current Value: ${value}`;
 }
 
 const submitBtn = document.getElementById("btnSubmit");
