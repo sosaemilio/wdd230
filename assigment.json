@@ -1,0 +1,7 @@
+{
+    "week01": ["week01/holygrail.html", "https://codepen.io/sosaemilio1/pen/zYLoZyz", "week01/media-query.html"],
+    "week02": ["week02/design.html", "https://codepen.io/sosaemilio1/pen/XWBREXe", "week02/bom.html"],
+    "week03": ["week03/images/landscape.webp", "week/lazyloading.html", "https://codepen.io/sosaemilio1/pen/vYaWopv?", "week03/bom.html"],
+    "week04": ["https://codepen.io/sosaemilio1/pen/GRBGRPZ", "images/css-combinator.png", "week04/form-start/index.html"],
+    "week05": ["https://codepen.io/sosaemilio1/pen/ExpGROM", "week05/new-ward-members.json", "week05/prophets.html", "week05/weather.html"]
+}

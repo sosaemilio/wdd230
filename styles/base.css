@@ -193,3 +193,7 @@ td {
 label {
     margin-top: 1rem;
 }
+
+#weather-information {
+    display: inline-block;
+}
