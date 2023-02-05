@@ -38,3 +38,21 @@ function displayDirectory(directoryJSON) {
 }
 
 getCompanies(directoryUrl);
+
+
+const gridButton = document.getElementById("grid-view");
+const listButton = document.getElementById("list-view");
+const directory = document.getElementById("directory");
+
+function showList(){
+   directory.classList.add("flex");
+   directory.classList.remove("grid"); 
+}
+
+function showGrid() {
+    directory.className = "";
+    directory.classList.add("grid");
+}
+
+gridButton.addEventListener("click", showGrid);
+listButton.addEventListener("click", showList);
