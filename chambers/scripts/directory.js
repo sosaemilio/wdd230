@@ -13,7 +13,7 @@ async function getCompanies(url) {
 function displayDirectory(directoryJSON) {
     directoryJSON.forEach((company) => {
         const section = document.createElement("section");
-        const companyName = document.createElement("h2");
+        const companyName = document.createElement("h3");
         companyName.textContent = company.companyName;
 
         const address = document.createElement("p");
@@ -24,17 +24,15 @@ function displayDirectory(directoryJSON) {
         telephone.setAttribute("href", `tel:${company.telephone}`);
 
         const website = document.createElement("a");
-        website.textContent = company.website;
+        website.textContent = "Visit Website";
         website.setAttribute("href", company.website);
 
         const membership = document.createElement("p");
         membership.textContent = company.membership;
 
 
-        section.append(companyName, address, membership, telephone)
+        section.append(companyName, address, membership, telephone, website);
         document.getElementById("directory").append(section);
-
-
 
     });
 }
