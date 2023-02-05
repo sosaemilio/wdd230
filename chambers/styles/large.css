@@ -157,4 +157,14 @@
         margin-left: 1.5rem;
         padding-left: 1rem;
     }
+
+    #directory {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 2rem;
+        grid-column-gap: 2rem;
+        margin-bottom: 1rem;
+        padding-right: 10rem;
+        padding-left: 10rem;
+        padding-bottom: 4rem;
+    }
 }

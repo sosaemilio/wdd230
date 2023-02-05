@@ -11,7 +11,7 @@ body {
     letter-spacing: 0.01rem;
 }
 
-h1 {
+#title {
    font-weight: 1000;
    color: #f5f5f5;
 }
@@ -353,4 +353,39 @@ label {
     text-align: center;
     font-size: 1.3rem;
     padding: 2rem;
+}
+
+
+/***
+
+Directory Page
+
+***/
+
+#directory {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+    padding: 1rem;
+}
+
+#directory section {
+    text-align: center;
+    border: solid #001f5c;
+    padding: 1rem;
+    align-self: stretch;
+}
+
+#directory section h2 {
+    margin: 0;
+}
+
+#directory section p {
+    margin: .5rem;
+}
+
+#directory-title {
+    color: #001f5c;
+    text-align: center;
 }

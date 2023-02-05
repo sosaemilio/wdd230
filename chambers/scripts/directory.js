@@ -15,7 +15,6 @@ function displayDirectory(directoryJSON) {
         const section = document.createElement("section");
         const companyName = document.createElement("h2");
         companyName.textContent = company.companyName;
-        console.log(company)
 
         const address = document.createElement("p");
         address.textContent = company.address;
@@ -24,8 +23,17 @@ function displayDirectory(directoryJSON) {
         telephone.textContent = company.telephone;
         telephone.setAttribute("href", `tel:${company.telephone}`);
 
-        section.append(companyName, address, telephone)
-        document.getElementById("discovery").append(section)
+        const website = document.createElement("a");
+        website.textContent = company.website;
+        website.setAttribute("href", company.website);
+
+        const membership = document.createElement("p");
+        membership.textContent = company.membership;
+
+
+        section.append(companyName, address, membership, telephone)
+        document.getElementById("directory").append(section);
+
 
 
     });
