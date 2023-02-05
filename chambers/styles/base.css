@@ -380,7 +380,7 @@ Directory Page
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 0.2rem;
-    border: solid #dddee0;
+    padding: 1rem;
 }
 
 .flex section h3 {
@@ -402,12 +402,16 @@ Directory Page
 
 .grid section {
     text-align: center;
-    border: solid #001f5c;
     padding: 1rem;
 }
 
 .grid section h3 {
     margin: 0;
+}
+
+#directory section {
+    background-color: #001f5c;
+    color: white;
 }
 
 #directory section p {
@@ -416,6 +420,7 @@ Directory Page
 
 #directory section a {
     display: block;
+    color: #81eef3;
 }
 
 #directory-title {
@@ -425,4 +430,17 @@ Directory Page
 .sortby {
     padding-right: 1rem;
     text-align: right;
+}
+
+.sortby button {
+    background-color: #001f5c;
+    color: white;
+    padding: 1rem;
+}
+
+.sortby button:hover {
+    text-decoration: underline;
+    background-color: #81eef3;
+    border: none;
+    color: #001f5c;
 }
