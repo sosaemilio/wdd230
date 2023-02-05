@@ -45,8 +45,8 @@ const listButton = document.getElementById("list-view");
 const directory = document.getElementById("directory");
 
 function showList(){
+    directory.className = "";
    directory.classList.add("flex");
-   directory.classList.remove("grid"); 
 }
 
 function showGrid() {

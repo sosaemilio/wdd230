@@ -172,4 +172,8 @@
         padding-right: 10rem;
         margin: 1rem;
     }
+
+    .flex section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
