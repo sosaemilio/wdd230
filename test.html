@@ -1,0 +1,475 @@
+1. application/modules/admin/controllers/ApiuserController.php
+-extendAction()
+To: Dataset requested user
+						           Title : ImpactSpace Dataset access extended for "DATE_EXT" Days
+Description :
+<p>Dear ".ucfirst($users_row['fname']).",</p>
+<p>Thank you for your interest in the <strong>ImpactSpace</strong> dataset. We've reviewed your request and are pleased to grant you access.Your new API key will expire on ".$users_row['expiry_date'].".</p>Here is your ImpactSpace access user key:<br><strong>".$users_row['user_key']."</strong><p> We look forward to your continued support. If you have any questions or concerns please send us a message at info@impactspace.org</p><p>Best,<br>Zuleyma Bebell | Co-Founder & Director of Operations<br>954.654.2046 | @impactalpha <br> <a href='http://impactalpha.com'>ImpactAlpha</a> |<i>Investment News for a Sustainable Edge</i>  </p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. application/modules/admin/controllers/ApiuserController.php 
+-disapproveAction()
+To:User to request denied for dataset access
+Title : ImpactSpace Dataset access denied
+Description :
+<p>Dear ".ucfirst($users_row['fname']).",</p>
+<p>Your request has been denied.Please contact info@impactspace.org .</p><p>Best,<br>Zuleyma Bebell | Co-Founder & Director of Operations<br>954.654.2046 | @impactalpha <br> <a href='http://impactalpha.com'>ImpactAlpha</a> |<i>Investment News for a Sustainable Edge</i>  </p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.application/modules/admin/controllers/ApiuserController.php 
+- approveAction ()
+To:User to request denied for dataset access
+Title: ImpactSpace Dataset access approved 
+Description :
+<p>Dear ".ucfirst($users_row['fname']).",</p>
+<p>Thank you for your interest in the <strong>ImpactSpace</strong> dataset. We've reviewed your request and are pleased to grant you access.Your new API key will expire on ".$users_row['expiry_date'].".</p><p>Here is your ImpactSpace access user key:<br/><strong>".$users_row['user_key']."</strong></p><p>We look forward to your continued support. If you have any questions or concerns please send us a message at info@impactspace.org</p><p>Best,<br>Zuleyma Bebell | Co-Founder & Director of Operations<br>954.654.2046 | @impactalpha <br> <a href='http://impactalpha.com'>ImpactAlpha</a> |<i>Investment News for a Sustainable Edge</i>  </p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. application/modules/admin/controllers/CompanyController.php
+-disapproveAction()
+To: current User to prevent update profile by admin 
+Title: Profile on ImpactSpace has been Disapproved.
+Description:
+"<p>Dear ".ucfirst($users_row['fname'])." ".ucfirst($users_row['lname']).",</p><br />
+<p>Your profile on ImpactSpace has been approved and its ready for viewing and editing.</p><br><p>We invite you to review your profile and add any missing information. A complete profile increases chances of attracting prospective investors, clients, and followers- as it serves as perfect first introduction tool at investment and networking events.</p><br /><p>ImpactSpace also randomly selects newly updated profiles for promotion through our social networks and homepage, don't miss out on this opportunity for free publicity.</p><br/><p>Tip: Don't leave your impact areas blanks. These categories are great for filtering through the thousands of entries on the database.</p><br><p>Tip: Don't forget to share your profile on Facebook and Twitter.</p><br><p>We look forward to your continued contribution and thank you for your support.</p><br><p>Best,<br>Zuleyma Bebell | Co-Founder & Director of Operations<br>954.654.2046 | @impactalpha<br>ImpactAlpha | Investment News for a Sustainable Edge<br></p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. . application/modules/admin/controllers/CompanyController.php
+-approveAction()
+To: user to Profile on ImpactSpace has been approved. 
+Title: Profile on ImpactSpace has been approved.
+Description : 
+<p>Dear ".ucfirst($users_row['fname'])." ".ucfirst($users_row['lname']).",</p><br />\r\n
+<p>Your profile on ImpactSpace has been approved and its ready for viewing and editing.</p><br>\r\n<p>We invite you to review your profile and add any missing information. A complete profile increases chances of attracting prospective investors, clients, and followers- as it serves as perfect first introduction tool at investment and networking events.</p><br />\r\n<p>ImpactSpace also randomly selects newly updated profiles for promotion through our social networks and homepage, don't miss out on this opportunity for free publicity.</p><br/>\r\n<p>Tip: Don't leave your impact areas blanks. These categories are great for filtering through the thousands of entries on the database.</p><br>\r\n<p>Tip: Don't forget to share your profile on Facebook and Twitter.</p><br>\r\n<p>We look forward to your continued contribution and thank you for your support.</p><br>\r\n<p>Best,<br>\r\nZuleyma Bebell | Co-Founder & Director of Operations<br>\r\n954.654.2046 | @impactalpha<br>\r\nImpactAlpha | Investment News for a Sustainable Edge </p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. application/modules/admin/controllers/ContentupdatesController.php
+- notifyUser()
+To: User to notify complete your profile
+Title: Profile on ImpactSpace has been approved.
+Decsription:
+<p>Dear ".ucfirst($users_row['fname'])." ".ucfirst($users_row['lname']).",</p><br />\r\n
+<p>Your profile on ImpactSpace has been approved and its ready for viewing and editing.</p><br>\r\n<p>We invite you to review your profile and add any missing information. A complete profile increases chances of attracting prospective investors, clients, and followers- as it serves as perfect first introduction tool at investment and networking events.</p><br />\r\n<p>ImpactSpace also randomly selects newly updated profiles for promotion through our social networks and homepage, don't miss out on this opportunity for free publicity.</p><br/>\r\n<p>Tip: Don't leave your impact areas blanks. These categories are great for filtering through the thousands of entries on the database.</p><br>\r\n<p>Tip: Don't forget to share your profile on Facebook and Twitter.</p><br>\r\n<p>We look forward to your continued contribution and thank you for your support.</p><br>\r\n<p>Best,<br>\r\nZuleyma Bebell | Co-Founder & Director of Operations<br>\r\n954.654.2046 | @impactalpha<br>\r\nImpactAlpha | Investment News for a Sustainable Edge</p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7. application/modules/admin/controllers/DatasubmissionController.php
+- extendAction()
+To : User to notify that access date extended
+Title: ImpactSpace Dataset access extended for “.DATE_EXT." Days
+Description: 
+<div><p>Dear ".ucfirst($users_row['fname']).",</p>
+<p>Thank you for your interest in the <strong>ImpactSpace</strong> dataset. We've reviewed your request and are pleased to grant you access.Your new API key will expire on ".$users_row['expiry_date'].".</p>Here is your ImpactSpace access user key:<br><strong>".$users_row['user_key']."</strong><p> We look forward to your continued support. If you have any questions or concerns please send us a message at info@impactspace.org</p><p>Best,<br>Zuleyma Bebell | Co-Founder & Director of Operations<br>954.654.2046 | @impactalpha <br> <a href='http://impactalpha.com'>ImpactAlpha</a> |<i>Investment News for a Sustainable Edge</i>  </p></div><style> div p {margin-bottom:1em;}</style>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8. application/modules/admin/controllers/FinancialorganizationController.php
+-approveAction()
+To: User to inform Profile on ImpactSpace has been approved
+Titel: Profile on ImpactSpace has been Disapproved.
+Description:
+<p>Dear ".ucfirst($users_row['fname'])." ".ucfirst($users_row['lname']).",</p><br />
+<p>Your profile on ImpactSpace has been approved and its ready for viewing and editing.</p><br><p>We invite you to review your profile and add any missing information. A complete profile increases chances of attracting prospective investors, clients, and followers- as it serves as perfect first introduction tool at investment and networking events.</p><br /><p>ImpactSpace also randomly selects newly updated profiles for promotion through our social networks and homepage, don't miss out on this opportunity for free publicity.</p><br/><p>Tip: Don't leave your impact areas blanks. These categories are great for filtering through the thousands of entries on the database.</p><br><p>Tip: Don't forget to share your profile on Facebook and Twitter.</p><br><p>We look forward to your continued contribution and thank you for your support.</p><br><p>Best,<br>Zuleyma Bebell | Co-Founder & Director of Operations<br>954.654.2046 | @impactalpha<br>ImpactAlpha | Investment News for a Sustainable Edge<br></p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9. application/modules/admin/controllers/IndexController.php
+- cronextendapiAction()
+To: User to Inform dataset plan expire in 15 days
+Title: ImpactSpace Dataset access will be expired in 15 Days
+Decsription:
+<p>Dear ".ucfirst($allapi[$i]['fname'])." ".ucfirst($allapi[$i]['lname']).",</p><br />
+<p>Your ImpactSpace API key <strong>".$allapi[$i]['user_key']."</strong> will expire on ".$expdate.".<br/>To renew your API key, please email us at info@impactspace.org .</p><br/><p>We look forward to your continued contribution and thank you for your support. If you have any questions or concerns please send us a message at info@impactspace.org .</p><br><p>Best,<br>Zuleyma Bebell | Co-Founder & Director of Operations<br>954.654.2046 | @impactalpha <br> <a href='http://impactalpha.com'>ImpactAlpha</a> |<i>Investment News for a Sustainable Edge</i>  </p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10. application/modules/admin/controllers/NewcompaniesController.php
+- approveAction()
+To: User to inform profile approved on Impactspace
+Title: Profile on ImpactSpace has been approved.
+Description:
+<p>Dear ".ucfirst($users_row['fname'])." ".ucfirst($users_row['lname']).",</p><br />\r\n	
+<p>Your profile on ImpactSpace has been approved and its ready for viewing and editing.</p><br>\r\n<p>We invite you to review your profile and add any missing information. A complete profile increases chances of attracting prospective investors, clients, and followers- as it serves as perfect first introduction tool at investment and networking events.</p><br />\r\n<p>ImpactSpace also randomly selects newly updated profiles for promotion through our social networks and homepage, don't miss out on this opportunity for free publicity.</p><br/>\r\n<p>Tip: Don't leave your impact areas blanks. These categories are great for filtering through the thousands of entries on the database.</p><br>\r\n<p>Tip: Don't forget to share your profile on Facebook and Twitter.</p><br\r\n><p>We look forward to your continued contribution and thank you for your support.</p><br>\r\n<p>Best,<br>\r\nZuleyma Bebell | Co-Founder & Director of Operations<br>\r\n954.654.2046 | @impactalpha<br>\r\nImpactAlpha | Investment News for a Sustainable Edge</p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11. application/modules/admin/controllers/NewfinancialorgsController.php
+-approveAction()
+To: User to inform Profile on ImpactSpace has been approved.
+Title: Profile on ImpactSpace has been approved.
+Description: 
+<p>Dear ".ucfirst($users_row['fname'])." ".ucfirst($users_row['lname']).",</p><br />
+<p>Your profile on ImpactSpace has been approved and its ready for viewing and editing.</p><br><p>We invite you to review your profile and add any missing information. A complete profile increases chances of attracting prospective investors, clients, and followers- as it serves as perfect first introduction tool at investment and networking events.</p><br />\r\n<p>ImpactSpace also randomly selects newly updated profiles for promotion through our social networks and homepage, don't miss out on this opportunity for free publicity.</p><br/>\r\n<p>Tip: Don't leave your impact areas blanks. These categories are great for filtering through the thousands of entries on the database.</p><br>\r\n<p>Tip: Don't forget to share your profile on Facebook and Twitter.</p><br\r\n><p>We look forward to your continued contribution and thank you for your support.</p><br>\r\n<p>Best,<br>\r\nZuleyma Bebell | Co-Founder & Director of Operations<br>\r\n954.654.2046 | @impactalpha<br>\r\nImpactAlpha | Investment News for a Sustainable Edge<br>\r\n</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12. application/modules/admin/controllers/NewpersonsController.php
+-approveallAction()
+To: User to inform Profile on ImpactSpace has been approved.
+Title: Profile on ImpactSpace has been approved.
+Description:
+<p>Dear ".ucfirst($users_row['fname'])." ".ucfirst($users_row['lname']).",</p><br />\r\n
+<p>Your profile on ImpactSpace has been approved and its ready for viewing and editing.</p><br>\r\n<p>We invite you to review your profile and add any missing information. A complete profile increases chances of attracting prospective investors, clients, and followers- as it serves as perfect first introduction tool at investment and networking events.</p><br />\r\n<p>ImpactSpace also randomly selects newly updated profiles for promotion through our social networks and homepage, don't miss out on this opportunity for free publicity.</p><br/>\r\n<p>Tip: Don't leave your impact areas blanks. These categories are great for filtering through the thousands of entries on the database.</p><br>\r\n<p>Tip: Don't forget to share your profile on Facebook and Twitter.</p><br>\r\n<p>We look forward to your continued contribution and thank you for your support.</p><br>\r\n<p>Best,<br>\r\nZuleyma Bebell | Co-Founder & Director of Operations<br>\r\n954.654.2046 | @impactalpha<br>\r\nImpactAlpha | Investment News for a Sustainable Edge</p>";	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13. application/modules/admin/controllers/NewpersonsController.php
+- approveAction
+To: User to inform Profile on ImpactSpace has been approved.
+Title: Profile on ImpactSpace has been approved.
+Description:
+<p>Dear ".ucfirst($users_row['fname'])." ".ucfirst($users_row['lname']).",</p><br />\r\n
+<p>Your profile on ImpactSpace has been approved and its ready for viewing and editing.</p><br>\r\n<p>We invite you to review your profile and add any missing information. A complete profile increases chances of attracting prospective investors, clients, and followers- as it serves as perfect first introduction tool at investment and networking events.</p><br />\r\n<p>ImpactSpace also randomly selects newly updated profiles for promotion through our social networks and homepage, don't miss out on this opportunity for free publicity.</p><br/>\r\n<p>Tip: Don't leave your impact areas blanks. These categories are great for filtering through the thousands of entries on the database.</p><br>\r\n<p>Tip: Don't forget to share your profile on Facebook and Twitter.</p><br>\r\n<p>We look forward to your continued contribution and thank you for your support.</p><br>\r\n<p>Best,<br>\r\nZuleyma Bebell | Co-Founder & Director of Operations<br>\r\n954.654.2046 | @impactalpha<br>\r\nImpactAlpha | Investment News for a Sustainable Edge</p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14. application/modules/admin/controllers/NewsupportingorgsController.php
+- approveallAction()
+To: User to inform Profile on ImpactSpace has been approved.
+Title: Profile on ImpactSpace has been approved.
+Description:
+<p>Dear ".ucfirst($users_row['fname'])." ".ucfirst($users_row['lname']).",</p><br />\r\n
+<p>Your profile on ImpactSpace has been approved and its ready for viewing and editing.</p><br>\r\n<p>We invite you to review your profile and add any missing information. A complete profile increases chances of attracting prospective investors, clients, and followers- as it serves as perfect first introduction tool at investment and networking events.</p><br />\r\n<p>ImpactSpace also randomly selects newly updated profiles for promotion through our social networks and homepage, don't miss out on this opportunity for free publicity.</p><br/>\r\n<p>Tip: Don't leave your impact areas blanks. These categories are great for filtering through the thousands of entries on the database.</p><br>\r\n<p>Tip: Don't forget to share your profile on Facebook and Twitter.</p><br>\r\n<p>We look forward to your continued contribution and thank you for your support.</p><br>\r\n<p>Best,<br>\r\nZuleyma Bebell | Co-Founder & Director of Operations<br>\r\n954.654.2046 | @impactalpha<br>\r\nImpactAlpha | Investment News for a Sustainable Edge</p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15. application/modules/admin/controllers/NewsupportingorgsController.php
+- approveAction()
+To: User to inform Profile on ImpactSpace has been approved.
+Title: Profile on ImpactSpace has been approved.
+Description:
+<p>Dear ".ucfirst($users_row['fname'])." ".ucfirst($users_row['lname']).",</p><br />\r\n
+<p>Your profile on ImpactSpace has been approved and its ready for viewing and editing.</p><br>\r\n<p>We invite you to review your profile and add any missing information. A complete profile increases chances of attracting prospective investors, clients, and followers- as it serves as perfect first introduction tool at investment and networking events.</p><br />\r\n<p>ImpactSpace also randomly selects newly updated profiles for promotion through our social networks and homepage, don't miss out on this opportunity for free publicity.</p><br/>\r\n<p>Tip: Don't leave your impact areas blanks. These categories are great for filtering through the thousands of entries on the database.</p><br>\r\n<p>Tip: Don't forget to share your profile on Facebook and Twitter.</p><br>\r\n<p>We look forward to your continued contribution and thank you for your support.</p><br>\r\n<p>Best,<br>\r\nZuleyma Bebell | Co-Founder & Director of Operations<br>\r\n954.654.2046 | @impactalpha<br>\r\nImpactAlpha | Investment News for a Sustainable Edge</p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16. application/modules/admin/controllers/PeopleController.php
+- approveAction()
+ To: User to inform Profile on ImpactSpace has been approved.
+Title: Profile on ImpactSpace has been approved.
+Description:
+<p>Dear ".ucfirst($users_row['fname'])." ".ucfirst($users_row['lname']).",</p><br />\r\n
+<p>Your profile on ImpactSpace has been approved and its ready for viewing and editing.</p><br>\r\n<p>We invite you to review your profile and add any missing information. A complete profile increases chances of attracting prospective investors, clients, and followers- as it serves as perfect first introduction tool at investment and networking events.</p><br />\r\n<p>ImpactSpace also randomly selects newly updated profiles for promotion through our social networks and homepage, don't miss out on this opportunity for free publicity.</p><br/>\r\n<p>Tip: Don't leave your impact areas blanks. These categories are great for filtering through the thousands of entries on the database.</p><br>\r\n<p>Tip: Don't forget to share your profile on Facebook and Twitter.</p><br>\r\n<p>We look forward to your continued contribution and thank you for your support.</p><br>\r\n<p>Best,<br>\r\nZuleyma Bebell | Co-Founder & Director of Operations<br>\r\n954.654.2046 | @impactalpha<br>\r\nImpactAlpha | Investment News for a Sustainable Edge</p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17. application/modules/admin/controllers/SupportingorganizationController.php
+- approveAction()
+To : User to inform Profile on ImpactSpace has been approved.
+Title: Profile on ImpactSpace has been approved.
+Description:
+<p>Dear ".ucfirst($users_row['fname'])." ".ucfirst($users_row['lname']).",</p><br />\r\n
+<p>Your profile on ImpactSpace has been approved and its ready for viewing and editing.</p><br>\r\n<p>We invite you to review your profile and add any missing information. A complete profile increases chances of attracting prospective investors, clients, and followers- as it serves as perfect first introduction tool at investment and networking events.</p><br />\r\n<p>ImpactSpace also randomly selects newly updated profiles for promotion through our social networks and homepage, don't miss out on this opportunity for free publicity.</p><br/>\r\n<p>Tip: Don't leave your impact areas blanks. These categories are great for filtering through the thousands of entries on the database.</p><br>\r\n<p>Tip: Don't forget to share your profile on Facebook and Twitter.</p><br>\r\n<p>We look forward to your continued contribution and thank you for your support.</p><br>\r\n<p>Best,<br>\r\nZuleyma Bebell | Co-Founder & Director of Operations<br>\r\n954.654.2046 | @impactalpha<br>\r\nImpactAlpha | Investment News for a Sustainable Edge</p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18. application/modules/data-submission/controllers/IndexController.php
+- datainsertAction
+To: info@impactalpha.com “ImpactSpace New Impact Data Submission”
+Title: ImpactSpace New Impact Data Submission	
+Description:
+<div><p>Hi,</p>
+<p>The below user has submitted the impact data. Please check and do further process. </p>
+<p>
+Name: ".ucfirst($user['fname'])." ".ucfirst($user['lname'])."<br/>
+Email: ".$user['email']."<br/>
+File Name: ".$data['file_name']."<br/>
+Uploaded On: ".date("m-d-Y h:i a", strtotime($data['uploaded_datetime']))."<br/>
+</p>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19. application/modules/users/controllers/RecoveryController.php
+ - editpasswordAction()
+ To: user to recover password
+Title: ImpactSpace Account password changed
+Description: 
+<p>Dear ".ucfirst($row['fname']).",</p><br><p>The password for your ImpactSpace Account - ".$row['email']." - was recently changed.</p><br><p>If you made this change, you don't need to do anything more.</p><br><p>If you didn't change your password, your account might have been hijacked. To get back into your account, you'll need to reset your password.</p><br><p><a href='http://".$fullUrl."/user/forgot-password'>Reset password</a></p><br><p>Sincerely,</p><p>ImpactSpace Team.</p>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20. application/modules/users/controllers/RecoveryController.php
+ - indexAction()
+To: existing user
+Titel: ImpactSpace - Reset your password
+Description:
+<p>Dear ".ucfirst($res['fname']).",</p><br><p>Greetings from ImpactSpace. <br><br>Can't remember your password? Don't worry about it - it happens.</p><br><p style='color:#000'>Your Username is: <b>".$res['username']."</b></p><br><p><b><a href='http://".$fullUrl."/user/reset-password/".$token."'>Click this link to reset your password</a></b></p><br><p>Thank you for using this service.</p><br><p>Regards,</p><p>ImpactSpace Team.</p><br><hr><p><b>Didn't ask to reset your password?</b><br>
+If you didn't ask for your password, it's likely that another user entered your email address by mistake while trying to reset their password. If that's the case, you don't need to take any further action and can safely disregard this email. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21. application/modules/users/controllers/RegistrationController.php
+ -addAction()
+To: New register user 
+Title: [ImpactSpace] Welcome to ImpactSpace!
+Description:
+<p>Dear ".ucfirst($formData['fname']).",</p><br />
+<p>Welcome to the <a href='http://www.impactspace.com'>ImpactSpace </a> community! With your new account, you are now able to edit and create Companies, Impact Investors and People with your <a href='http://www.impactspace.com/users'>user account</a>.</p><p>Other users will be able to see that you're the contributor who made these edits.</p><p>Have a good one and see you on the site! If you have any questions, please do reply back to this email, we're not bots. </p><br /><p>David Bank <br/>CEO and Founder, ImpactAlpha</p><br/>
+
+
