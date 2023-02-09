@@ -4,14 +4,15 @@ function menuToggle(x) {
 
 /* Set the width of the side navigation to 250px */
 function openNav(x) {
-  document.querySelector(".nav-menu").style.width = "250px";
+  document.querySelector(".nav-menu").style.display = "block";
   document.body.style.backgroundColor = "rgba(0,0,0,0.1)";
   menuToggle(x)
 }
 
 /* Set the width of the side navigation to 0 */
 function closeNav(x) {
-  document.querySelector(".nav-menu").style.width = "0";
+  //document.querySelector(".nav-menu").style.width = "0";
+  document.querySelector(".nav-menu").style.display = "none";
   menuToggle(x);
 
 }

@@ -26,6 +26,10 @@ a {
     padding: 1em;
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
     text-align: center;
     font-size: 2em;
@@ -67,14 +71,14 @@ hr {
     overflow-x: hidden;
     transition: 0.5s;
     position: fixed;
-    width: 0;
+    display: none;
+    width: 250px;
     margin-top: 0px;
     padding-left: 0;
 }
 
 .nav-menu li {
     text-align: center;
-    margin: auto;
     margin: 1rem 2rem;
 }
 
@@ -279,11 +283,12 @@ footer p {
 }
 
 /**** DISCOVER PAGE  ****/
-#discover h3 {
+#discover h2 {
     margin-bottom: 0;
     background-color: #001f5c;
     color: #81eef3;
     padding: 0.5rem;
+    font-size: 1.5rem;
 }
 
 #discover img {

@@ -10,7 +10,7 @@
         flex-direction: row;
         gap: 2rem;
         
-        z-index: inherit;
+        /*z-index: inherit; */
         top: auto;
         left: auto;
         height: auto;
