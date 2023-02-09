@@ -237,6 +237,7 @@ hr {
     width: 100%;
 }
 
+
 /*Events*/
 
 .event {
@@ -357,6 +358,10 @@ label {
     text-align: center;
     font-size: 1.3rem;
     padding: 2rem;
+}
+
+#date {
+    display: none;
 }
 
 
