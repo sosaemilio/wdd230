@@ -392,12 +392,15 @@ Directory Page
     padding: 1rem;
 }
 
-.flex section h3 {
+.flex section h2 {
     grid-row: 1 / 2;
     grid-column: 1 / 3;
     margin-bottom: 0;
     margin-top: 0;
     margin-left: .5rem;
+    font-size: 1.5rem;
+    color: white;
+    text-align: left;
 }
 
 .flex section p {
@@ -414,8 +417,10 @@ Directory Page
     padding: 1rem;
 }
 
-.grid section h3 {
+.grid section h2 {
     margin: 0;
+    font-size: 1.5rem;
+    color: white;
 }
 
 #directory section {

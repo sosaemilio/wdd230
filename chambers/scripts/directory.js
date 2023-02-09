@@ -13,7 +13,7 @@ async function getCompanies(url) {
 function displayDirectory(directoryJSON) {
     directoryJSON.forEach((company) => {
         const section = document.createElement("section");
-        const companyName = document.createElement("h3");
+        const companyName = document.createElement("h2");
         companyName.textContent = company.companyName;
 
         const address = document.createElement("p");
