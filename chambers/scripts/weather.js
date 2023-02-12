@@ -1,8 +1,8 @@
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Caracas&units=imperial&appid=2ececfa9592136e3df2f803a0a10d7be";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Lecheria&units=imperial&appid=2ececfa9592136e3df2f803a0a10d7be";
 
 // select HTML elements in the document
-const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
+const currentTemp = document.querySelector('#weather-temp');
+const weather = document.querySelector('#weather');
 
 async function apiFetch(url) {
     try {
@@ -21,10 +21,17 @@ async function apiFetch(url) {
 
 function displayResults(data) {
     let desc = data.weather[0].description;
-    currentTemp.innerHTML = `${data.main.temp}&deg;F, ${desc}`;
+    currentTemp.innerHTML = `Temp: ${data.main.temp}&deg;F`;
+    
     const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
+    let icon = document.createElement("img");
+    icon.setAttribute('src', iconsrc);
+    icon.setAttribute('alt', desc);
+
+    let description = document.createElement("p");
+    description.textContent = desc;
+
+    weather.append(icon, description)
 }
 
 
