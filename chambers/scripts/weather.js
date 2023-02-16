@@ -46,7 +46,7 @@ function displayResultsTomorrow(data)
 }
 
 function displayResultsThreeDays(data) {
-    let desc = data.list[8].weather[0].description;
+    let desc = data.list[24].weather[0].description;
     document.getElementById("temp-three").innerHTML = `Temp: ${data.list[24].main.temp}&deg;F`;
     
     let iconsrc = `https://openweathermap.org/img/wn/${data.list[24].weather[0].icon}.png`;
