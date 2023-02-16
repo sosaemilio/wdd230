@@ -182,6 +182,12 @@ hr {
     color: #dddee0;
 }
 
+.announcement-bar {
+    background-color: #81eef3;
+    text-align: center;
+    color: #001f5c;
+    font-size: 1.2rem;
+}
 /*Chamber Information*/
 
 #chamber-stats {
