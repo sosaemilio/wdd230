@@ -29,7 +29,7 @@ function displaySpotlight(members) {
 
         let learnMore = document.createElement("a");
         learnMore.textContent = "Learn More";
-        learnMore.setAttribute("href", members[index].website);
+        learnMore.setAttribute("href", spotlightMember[index].website);
         card.append(companyTitle, membership, learnMore)
     })
 }
