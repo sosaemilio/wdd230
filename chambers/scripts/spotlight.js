@@ -21,8 +21,8 @@ function displaySpotlight(members) {
     });
 
     cards.forEach((card, index) => {
-        random = Math.random(0, cards.length);
-        console.log(random);
+        //random = Math.random(0, cards.length);
+        //console.log(random);
         let companyTitle = document.createElement("h3");
         companyTitle.textContent = spotlightMember[index].companyName;
 
